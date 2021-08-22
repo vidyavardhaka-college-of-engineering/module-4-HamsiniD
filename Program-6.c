@@ -9,7 +9,7 @@ int main()
    scanf("%d%d", &fno,&sno);
    ptr = &fno;
    qtr = &sno;
-  //Calculate sum=*ptr+*qtr;
+  sum=*ptr+*qtr;
    printf(" Sum=%d",sum);
     return 0;
 }
