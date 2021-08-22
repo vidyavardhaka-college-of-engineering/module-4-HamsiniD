@@ -10,6 +10,7 @@ void main()
  int fno,sno,*ptr1=&fno,*ptr2=&sno;
  printf(" Input two numbers:");
  scanf("%d%d", ptr1,ptr2);
+if(*ptr1>*ptr2)
 //write the code for testing the condition
  {
   printf("%d is the maximum number",*ptr1);
